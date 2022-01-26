@@ -17,7 +17,7 @@ public class AppFactory {
         NFE notaFiscal = new NFE("RS");
         Boleto boleto = new Boleto("Inter");
 
-        Venda venda = new Venda(produto, boleto, notaFiscal);
-        venda.realizarVenda();
+      //  Venda venda = new Venda(produto, boleto, notaFiscal);
+       // venda.realizarVenda();
     }
 }
